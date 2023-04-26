@@ -1,0 +1,19 @@
+intent lanza actividad
+bundle data o informacion
+
+si se va a pasar un objeto en un bundle , el objeto tiene que implementar serializable
+
+pasos
+ usuarios / profesiones
+ repositorios de ambas
+ adaptador
+
+ inflar un xml es pasarlo a java
+
+
+ tanto recycleview como el spinner necesitan adapator
+ pero el recycle necesita  extends RecyclerView.Adapter<Adaptador.ViewHolder>
+
+ spinner = ArrayAdapter
+
+ recyclerview = Adaptador adaptardor = new Adaptador(this);
